@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ruona Payments | Coming Soon",
+  title: "Brisqpay Payments | Coming Soon",
   description:
     "Fast, reliable payment infrastructure built for fintechs and businesses. API-driven EFT and Interac e-Transfer rails. Powering the next generation of Canadian payments.",
 };

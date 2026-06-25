@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Badge, Box, Container, Paper, Stack, Text } from "@mantine/core";
+import { Badge, Box, Container, Stack, Text } from "@mantine/core";
 
 export default function Home() {
   return (
@@ -18,16 +18,14 @@ export default function Home() {
             Coming Soon
           </Badge>
 
-          <Paper radius="lg" p="xs" shadow="sm" w={{ base: 260, sm: 340 }}>
-            <Image
-              src="/brisqpay-logo-horizontal.png"
-              alt="Brisqpay"
-              width={824}
-              height={291}
-              style={{ width: "100%", height: "auto" }}
-              priority
-            />
-          </Paper>
+          <Image
+            src="/brisqpay_logo.png"
+            alt="Brisqpay"
+            width={2942}
+            height={903}
+            style={{ width: "100%", maxWidth: 340, height: "auto" }}
+            priority
+          />
 
           <Stack align="center" gap="xs">
             <Text ta="center" fz={{ base: "lg", sm: "xl" }} fw={500} c="gray.1">
